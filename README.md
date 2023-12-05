@@ -11,37 +11,65 @@
 
 ### Steps to follow after you got node.js and an IDE.
 
-    1. Run <npm init> in the folder you going to make the project, it will create a package.json file with all your dependencies.
-        - <npm i express>
-            - <npm i body-parser>
-                - <npm i -g nodemon> I would install nodemon globally as it's good to have.
+1. Run
+
+       npm init
+   
+   - In the folder you going to make the project, it will create a package.json file with all your dependencies.
+   
+           npm i express
+   
+           npm i body-parser
+   
+           npm i -g nodemon
+
+   - I would install nodemon globally as it's good to have.
             
-    2. For testing the project.
-        - <npm i --save-dev cypress> We only need cypress in development.
-            - <npm i mockito>
+2. For testing the project.
+   
+       npm i --save-dev cypress
+   
+   - We only need cypress in development. Mockito is for mocking ex user data automatically to the cypress tests
+   
+           npm i mockito
             
-    3. If you want to start the project just run any of these commands.
-        - <nodemon app.js> if you want to see if evertthing works.
-            - <npx cypress open> to run your test cases in cypress, a UI will come up and click.
-                - E2E testing, a folder named cypress will be created with a folder e2e, inside that folder you write your test cases.
+3. If you want to start the project just run any of these commands.
+   
+       nodemon app.js
+   
+   - If you want to see if evertthing works without cypress nodemon app.js is the way to go.
+     
+           npx cypress open
+
+    - To run your test cases in cypress, run the command over this text, a UI will come up and click on E2E Testing.
+        - A folder named cypress will be created with a folder e2e, inside that folder you write your test cases.
 
 ### Additional information
 
 In the beginning of your main js file you should have these requirments.
-const express = require('express');
-const bodyParser = require('body-parser');
-const session = require('express-session');
-const fs = require('fs');
-const path = require('path');
-const mockito = require('mockito');
+
+    ${const express = require('express');}
+
+    const bodyParser = require('body-parser');
+
+    const session = require('express-session');
+
+    const fs = require('fs');
+
+    const path = require('path');
+
+    const mockito = require('mockito');
 
 // Start the express function and listen on the server port 5000
-const app = express();
-const port = 5000;
+
+    const app = express();
+
+    const port = 5000;
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
-});
+
+    app.listen(port, () => {
+        console.log(`Server is running at http://localhost:${port}`);
+    });
 
 This is the minimal basic code to starup your project with all requirments ready.
