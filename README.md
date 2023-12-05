@@ -10,18 +10,18 @@
 
 ### Steps to follow after you got node.js and an IDE.
 
-    1. <code>npm init</code> in the folder you going to make the project, it will create a package.json file with all your dependencies.
-        - <code>npm i express</code>
-            - <code>npm i body-parser</code>
-                -<code>npm i -g nodemon</code> I would install nodemon globally as it's good to have.
+    1. <npm init> in the folder you going to make the project, it will create a package.json file with all your dependencies.
+        - <npm i express>
+            - <npm i body-parser>
+                - <npm i -g nodemon> I would install nodemon globally as it's good to have.
             
     2. For testing the project.
-        - <code>npm i --save-dev cypress</code> We only need cypress in development.
-            - <code>npm i mockito</code>
+        - <npm i --save-dev cypress> We only need cypress in development.
+            - <npm i mockito>
             
     3. If you want to start the project just run any of these commands.
-        - <code>nodemon app.js</code> if you want to see if evertthing works.
-            - <code>npx cypress open</code> to run your test cases in cypress, a UI will come up and click.
+        - <nodemon app.js> if you want to see if evertthing works.
+            - <npx cypress open> to run your test cases in cypress, a UI will come up and click.
                 - E2E testing, a folder named cypress will be created with a folder e2e, inside that folder you write your test cases.
 
 ### Additional information
