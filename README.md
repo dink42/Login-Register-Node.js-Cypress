@@ -1,7 +1,8 @@
-# Placeholder
+# How to make a node.js app with cypress and E2E testing.
 
 > [!NOTE]
 > Welcome to this project!
+> You should look at the code also while following instructions. The package.json file will hold all your dependecies, if you upload a project don't upload the node-modules folder. Make a .gitignore and write /node-modules inside it. Also if you clone a project with a package.json file. All you need to do is npm i install iside the folder you want to create your app and all the dependecies will be installed.
 > Here are some instructions for those intresting in creating a similair project!
 
 ## About the project
@@ -26,4 +27,21 @@
 
 ### Additional information
 
-> Lorem.
+In the beginning of your main js file you should have these requirments.
+const express = require('express');
+const bodyParser = require('body-parser');
+const session = require('express-session');
+const fs = require('fs');
+const path = require('path');
+const mockito = require('mockito');
+
+// Start the express function and listen on the server port 5000
+const app = express();
+const port = 5000;
+
+// Start the server
+app.listen(port, () => {
+    console.log(`Server is running at http://localhost:${port}`);
+});
+
+This is the minimal basic code to starup your project with all requirments ready.
