@@ -6,23 +6,24 @@
 
 ## About the project
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+> This project is made in node.js, and e2e testing in cypress, mockito is also used to mock data in some test cases. I will go throught the steps if you want to create a project like this. First of all, make sure you got node.js installed, and an IDE of your choice, i use vscode. You should have basic knowledge of JavaScript and some HTML. It would help if you tried some smaller projects in Jest too. The prerequirments you need to make a project like this is as follows.
 
-### Future for the project
+### Steps to follow after you got node.js and an IDE.
 
-    1. Placeholder
-        - Placeholder
-            - Placeholder
+    1. <code>npm init</code> in the folder you going to make the project, it will create a package.json file with all your dependencies.
+        - <code>npm i express</code>
+            - <code>npm i body-parser</code>
+                -<code>npm i -g nodemon</code> I would install nodemon globally as it's good to have.
             
-    2. Placeholder
-        - Placeholder
-            - Placeholder
+    2. For testing the project.
+        - <code>npm i --save-dev cypress</code> We only need cypress in development.
+            - <code>npm i mockito</code>
             
-    3. Placeholder
-        - Placeholder
-            - Placeholder
-                - Placeholder
+    3. If you want to start the project just run any of these commands.
+        - <code>nodemon app.js</code> if you want to see if evertthing works.
+            - <code>npx cypress open</code> to run your test cases in cypress, a UI will come up and click.
+                - E2E testing, a folder named cypress will be created with a folder e2e, inside that folder you write your test cases.
 
-### Future
+### Additional information
 
 > Lorem.
