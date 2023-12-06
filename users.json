@@ -1,0 +1,30 @@
+[
+  {
+    "username": "mockUser1",
+    "password": "mockPassword1"
+  },
+  {
+    "username": "mockUser2",
+    "password": "mockPassword2"
+  },
+  {
+    "username": "d",
+    "password": "dd"
+  },
+  {
+    "username": "ddd",
+    "password": "d"
+  },
+  {
+    "username": "s",
+    "password": "s"
+  },
+  {
+    "username": "dann",
+    "password": "dd"
+  },
+  {
+    "username": "dd",
+    "password": "ddd"
+  }
+]
