@@ -2,12 +2,12 @@
 
 > [!NOTE]
 > Welcome to this project!
-> You should look at the code also while following instructions. The package.json file will hold all your dependecies, if you upload a project don't upload the node-modules folder. Make a .gitignore and write /node-modules inside it. Also if you clone a project with a package.json file. All you need to do is npm i install iside the folder you want to create your app and all the dependecies will be installed.
+> You should look at the code also while following instructions. The package.json file will hold all your dependecies, if you upload a project don't upload the node_modules folder. Make a .gitignore and write /node-modules inside it. Also if you clone a project with a package.json file. All you need to do is npm i install iside the folder you want to create your app and all the dependecies will be installed.
 > Here are some instructions for those intresting in creating a similair project!
 
 ## About the project
 
-> This project is made in node.js, and e2e testing in cypress, mockito is also used to mock data in some test cases. I will go throught the steps if you want to create a project like this. First of all, make sure you got node.js installed, and an IDE of your choice, i use vscode. You should have basic knowledge of JavaScript and some HTML. It would help if you tried some smaller projects in Jest too. The prerequirments you need to make a project like this is as follows. Everything inside < > means that you gonna write that in the terminal in specified folder of your project.
+> This project is made in node.js, and e2e testing in cypress, mockito is also used to mock data in some test cases. I will go throught the steps if you want to create a project like this. First of all, make sure you got node.js installed, and an IDE of your choice, i use vscode. You should have basic knowledge of JavaScript and some HTML. It would help if you tried some smaller projects in Jest too. The prerequirments you need to make a project like this is as follows.
 
 ### Steps to follow after you got node.js and an IDE.
 
