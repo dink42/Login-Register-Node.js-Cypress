@@ -11,7 +11,7 @@ describe('Register User', () => {
         cy.get('button').click();
         cy.visit('/dashboard.html')
         cy.get('h1').should('contain', 'Welcome to the Dashboard');
-        cy.visit('https://nodejs.org/en')
+        // cy.visit('https://nodejs.org/en')
     });
     // Looks like it working, creating a user, changing user password,
     // Hopefully this is good, the other test cases are very simple and
