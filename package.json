@@ -17,6 +17,6 @@
     "mockito": "^1.0.7"
   },
   "devDependencies": {
-    "cypress": "^13.15.0"
+    "cypress": "^14.5.0"
   }
 }
